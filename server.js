@@ -4,7 +4,7 @@ const socketio = require('socket.io');
 
 const app = express();
 const server = http.createServer(app);
-const io = socketio(server); // ← اینجا تغییر کرد
+const io = socketio(server); // ← اینجا تغییر vvv
 
 const users = {};
 

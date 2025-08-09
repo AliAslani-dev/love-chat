@@ -4,7 +4,7 @@ const socketio = require('socket.io');
 
 const app = express();
 const server = http.createServer(app);
-const io = socketio(server); // ← اینجا تغییر vvv
+const io = socketio(server); // â Ø§ÛÙØ¬Ø§ ØªØºÛÛØ± vvv
 
 const users = {};
 
@@ -27,5 +27,5 @@ io.on('connection', socket => {
 });
 
 server.listen(process.env.PORT || 3000, () =>
-  console.log('Server is ssssssss...')
+  console.log('Server is ssssssسیسیسشیسشss...')
 );
